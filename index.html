@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Oaxaca Hiking Map</title>
+
+    <!-- Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/typeahead.js-bootstrap.css" rel="stylesheet" type="text/css"> 
+    <!--https://github.com/jharding/typeahead.js-bootstrap.css-->
+    <link href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" rel="stylesheet" type="text/css">
+    
+    
+    <!--[if lte IE 8]>
+        <link href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" rel="stylesheet" type="text/css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Oaxaca Hiking Map</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="$('#aboutModal').modal('show'); return false;">
+                        <i class="icon-question-sign" style="color: white"></i>&nbsp;&nbsp;About
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="$('#legendModal').modal('show'); return false;">
+                        <i class="icon-picture" style="color: white"></i>&nbsp;&nbsp;Legend
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="$('#contactModal').modal('show'); return false;">
+                        <i class="icon-envelope" style="color: white"></i>&nbsp;&nbsp;Contact
+                    </a>
+                </li>
+            </ul>
+                </div>
+            </form>
+        </div><!--/.navbar-collapse -->
+    </div>
+
+    <div class="row" id="container">
+        <div class="col-sm-3 col-lg-3" id="sidebar" style="padding: 10px; overflow: auto;">
+            <ul class="nav nav-tabs" id="myTab">
+                <li class="active"><a href="#layers" data-toggle="tab"><i class="icon-check"></i>&nbsp;Layers</a></li>
+                <li><a href="#help" data-toggle="tab"><i class="icon-question"></i>&nbsp;Help</a></li>
+            </ul>
+
+            <div class="tab-content" style="padding-top: 10px;">
+                <div class="tab-pane active" id="layers">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_" href="#overlay-layers">
+                                    Hikes
+                                </a>
+                            </div>
+                            <div id="overlay-layers" class="panel-collapse collapse in">
+                                <div class="panel-body" style="padding: 0px 15px;">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="overlayLayers" id="hikes" z-index="3" checked>
+                                            Hikes&nbsp;<img src='img/hiker.png' width='24' height='28'>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_" href="#basemap-layers">
+                                    Map Type
+                                </a>
+                            </div>
+                            <div id="basemap-layers" class="panel-collapse collapse in">
+                                <div class="panel-body" style="padding: 0px 15px;">
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="basemapLayers" id="mapquestOSM" checked>
+                                            Political
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="basemapLayers" id="mapquestOAM">
+                                            Satellite
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="basemapLayers" id="mapquestHYB">
+                                            Hybrid
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="help">
+                    Help content could goo here...
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9 col-lg-9" id="map">
+            <!--<div id="loading" style="display: block;">
+                <div class="loading-indicator">
+                    <div class="progress progress-striped active"> 
+                        <div class="progress-bar progress-bar-info" style="width: 100%"></div> 
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <a href="#" type="button" rel="tooltip" class="toggle btn btn-default" data-toggle="tooltip" data-placement="right" title="Toggle sidebar"><i class="icon-chevron-left"></i></a>
+
+    <div class="modal fade" id="aboutModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Welcome to the BootLeaf Sidebar template!</h4>
+                </div>
+
+                <div class="modal-body">
+                     <ul id="aboutTabs" class="nav nav-tabs">
+                        <li class="active"><a href="#about" data-toggle="tab"><i class="icon-question-sign"></i>&nbsp;About the project</a></li>
+                        <li><a href="#disclaimer" data-toggle="tab"><i class="icon-exclamation-sign"></i>&nbsp;Disclaimer</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-globe"></i>&nbsp;Metadata <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#boroughs-tab" data-toggle="tab">Boroughs</a></li>
+                                <li><a href="#subway-lines-tab" data-toggle="tab">Subway Lines</a></li>
+                                <li><a href="#theaters-tab" data-toggle="tab">Theaters</a></li>
+                                <li><a href="#museums-tab" data-toggle="tab">Museums</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="aboutTabsContent" class="tab-content" style="padding-top: 10px;">
+                        <div class="tab-pane fade active in" id="about">
+                            <p>A simple template for building web mapping applications with <a href="http://getbootstrap.com/">Bootstrap 3</a> and <a href="http://leafletjs.com/" target="_blank">Leaflet</a>.</p>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Features
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Fullscreen mobile-friendly map template with responsive navbar, sidebar, and modal placeholders</li>
+                                    <li class="list-group-item">jQuery loading of external GeoJSON files</li>
+                                    <li class="list-group-item">Elegant client-side multi-layer feature search with autocomplete using <a href="http://twitter.github.io/typeahead.js/" target="_blank">typeahead.js</a></li>
+                                    <li class="list-group-item">Integration of Bootstrap tables into Leaflet popups</li>
+                                    <li class="list-group-item">Logic for minimizing Sidebar and removing scale control on small screens</li>
+                                    <li class="list-group-item">Custom layer control with functions for defining and retaining vector z-index when toggling layer visibility.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade text-danger" id="disclaimer">
+                            <p>The data provided on this site is for informational and planning purposes only.</p>
+                            <p>Absolutely no accuracy or completeness guarantee is implied or intended. All information on this map is subject to such variations and corrections as might result from a complete title search and/or accurate field survey.</p>
+                        </div>
+                        <div class="tab-pane fade" id="boroughs-tab">
+                            <p>Borough data courtesy of <a href="http://www.nyc.gov/html/dcp/html/bytes/meta_dis_nyboroughwi.shtml" target="_blank">New York City Department of City Planning</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="subway-lines-tab">
+                            <p><a href="http://spatialityblog.com/2010/07/08/mta-gis-data-update/#datalinks" target="_blank">MTA Subway data</a> courtesy of the <a href="http://www.urbanresearch.org/about/cur-components/cuny-mapping-service" target="_blank">CUNY Mapping Service at the Center for Urban Research</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="theaters-tab">
+                            <p>Theater data courtesy of <a href="https://data.cityofnewyork.us/Recreation/Theaters/kdu2-865w" target="_blank">NYC Department of Information & Telecommunications (DoITT)</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="museums-tab">
+                            <p>Museum data courtesy of <a href="https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb" target="_blank">NYC Department of Information & Telecommunications (DoITT)</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Contact Us!</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="contact-form">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal">Submit</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="legendModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Map Legend</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Map Legend goes here...</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="contact-form">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="name">Username:</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Password:</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal">Login</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/typeahead.min.js"></script> <!--https://github.com/twitter/typeahead.js/-->
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    
+  </body>
+</html>

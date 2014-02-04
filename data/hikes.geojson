@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Nov 1",
+        "Location": "Oaxaca Panteon",
+        "Terrain": "City",
+        "Difficulty": "Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7587967,
+          17.1174164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "3/4/2014",
+        "Location": "Apoala",
+        "Terrain": "Countryside",
+        "Difficulty": "Difficult"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1377792,
+          17.6514606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Dec 13",
+        "Location": "Atzompa",
+        "Terrain": "Archeological",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7701721,
+          17.0921402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Dec 20",
+        "Location": "La Cumbre",
+        "Terrain": "Mountain",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6729431,
+          16.2861195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Dec 27",
+        "Location": "Jalapa del Valle ",
+        "Terrain": "Countryside",
+        "Difficulty": "Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4574127,
+          16.4325542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Dec 6",
+        "Location": " San Pablo Etla  ",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7611008,
+          17.1459007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Feb 14",
+        "Location": "San Agustin Etla",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7714996,
+          17.1777992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Feb 21",
+        "Location": "Dainzu",
+        "Terrain": "Archeological",
+        "Difficulty": "Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3549576,
+          16.9101982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Feb 28",
+        "Location": "San Bartolome",
+        "Terrain": "Countryside",
+        "Difficulty": "Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2810974,
+          17.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Feb 7",
+        "Location": "Cuajimoloyas",
+        "Terrain": "Mountain",
+        "Difficulty": "Mod & Hard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4529114,
+          17.1194401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Jan 10",
+        "Location": "Huayapam",
+        "Terrain": "Countryside",
+        "Difficulty": "Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6666031,
+          17.1021996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Jan 17",
+        "Location": "La Neveria",
+        "Terrain": "Mountain",
+        "Difficulty": "Mod and Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4141769,
+          16.8979607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Jan 24",
+        "Location": "Zaachila",
+        "Terrain": "Archeological",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7502747,
+          16.9553776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Jan 3",
+        "Location": "San Sebastian de las Grutas",
+        "Terrain": "Cave",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.014061,
+          16.7062187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Jan 31",
+        "Location": "Guacamaya",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0336227,
+          16.6407108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mar 14",
+        "Location": "Santo Domingo Tomaltepec",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4114456,
+          17.5826645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mar 21",
+        "Location": "Yagul",
+        "Terrain": "Archeological",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4502792,
+          16.9583321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mar 28",
+        "Location": "Capulálpam",
+        "Terrain": "Mountain",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5654678,
+          19.5865307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Mar 7",
+        "Location": "Latuvi",
+        "Terrain": "Mountain",
+        "Difficulty": "Difficult"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7184982,
+          16.9100151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Nov 15",
+        "Location": "Hierve el Aqua",
+        "Terrain": "Springs",
+        "Difficulty": "Easy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.261673,
+          16.8943062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Nov 22",
+        "Location": "Santa Ana del Valle",
+        "Terrain": "Archeological",
+        "Difficulty": "Difficult"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4702988,
+          16.9941006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Nov 29",
+        "Location": "San Pablo Cuatro Venados",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8902206,
+          16.9803104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Date": "Nov 8",
+        "Location": "Tlalixtac",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6557999,
+          17.0585003
+        ]
+      }
+    }
+  ]
+}
