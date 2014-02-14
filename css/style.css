@@ -140,3 +140,74 @@ html, body, #sidebar, #container {
         .leaflet-popup-content p {
 	margin: 1px 0;
 	}
+	
+	
+div.side-list {
+	position: relative;
+	z-index: 2;
+	padding: 0;
+}
+
+
+	
+	.list-group {
+	margin-bottom: 0px;
+	padding: 5px;
+	background: #eee;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item:first-child {
+	border-top: 0;
+	border-radius: inherit;
+}
+
+#list-group-container {
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+}
+
+
+
+p.address {
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0 0 4px;
+}
+
+
+button.list-group-item {
+	border-left: 0px;
+	border-right: 0px;
+	color: #555;
+	width: 100%;
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	background: #FAF7F5;
+}
+
+button.list-group-item:last-child {
+	border-bottom: 0;
+}
+
+button.list-group-item:hover, button.list-group-item.hover {
+	background-color: #fcf8e3;
+}
+
+button.list-group-item.active, button.list-group-item.active:hover {
+	background-color: #428bca;
+	color: #fff;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+
+#featurelist{
+		    border: 1px solid black;
+		    width: 150px;
+		    height: 200px;
+		    
+		    
+		}
