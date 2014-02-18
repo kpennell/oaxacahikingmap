@@ -109,9 +109,13 @@ $.getJSON("data/hikes.geojson", function (data) {
     hikes.addData(data);
 });
 
-console.log(hikes);  // not a proper object.  this is why the features array doesn't turn up with anything.
+map = L.map("map", {
+    zoom: 9,
+    center: new L.LatLng(17.059417, -96.721622),
+    layers: [mapquestOSM,hikes] //[mapquestOSM, boroughs, subwayLines, churchs]
+});
+// console.log(hikes);
 
-var features = [];
 		hikes.eachLayer(function (layer) {
 		    var id = layer._leaflet_id;
 			var name = layer.feature.properties.Date;
@@ -119,24 +123,17 @@ var features = [];
 			var lng = layer.feature.geometry.coordinates[0];
 			var lat = layer.feature.geometry.coordinates[1];
 			
-			features.push({id: id, label: name, value: name, lat: lat, lng: lng});
 			
 			// Populate features array and build autocomplete
-		
-			console.log(features);
+			$(".list-group ul").append('<li><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+coords+'</a></li>');
+
+			console.log(coords);
 			// Populate sidebar table with clickable feature links
-			$(".list-group ul").append('<li><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+date+'</a></li>');
 			// Add features to zoom dropdown
 		});
 
-console.log(features);  // comes up totally blank
 
 
-map = L.map("map", {
-    zoom: 9,
-    center: new L.LatLng(17.059417, -96.721622),
-    layers: [mapquestOSM,hikes] //[mapquestOSM, boroughs, subwayLines, churchs]
-});
 // Hack to preserver layer order in Layer control
 //map.removeLayer(subwayLines);
 
