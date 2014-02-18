@@ -100,7 +100,19 @@ var hikes = L.geoJson(null, {
         feature.properties.Location + "<p><b>Terrain: </b></p>" + feature.properties.Terrain + 
         "<p><b>Difficulty: </b></p>" + feature.properties.Difficulty,
         {maxWidth: 300, minWidth: 100, maxHeight: 160, closeButton: true, showOnMouseOver: true});
-		        
+		    
+		    
+		var id = layer._leaflet_id;
+			var name = layer.feature.properties.Date;
+			var coords = layer.feature.geometry.coordinates;
+			var location = layer.feature.properties.Location;
+			var lng = layer.feature.geometry.coordinates[0];
+			var lat = layer.feature.geometry.coordinates[1];
+			
+			
+			// Populate features array and build autocomplete
+			$(".list-group ul").append('<li><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+location+'</a></li>');
+        
     }
 });
 
@@ -114,11 +126,10 @@ map = L.map("map", {
     center: new L.LatLng(17.059417, -96.721622),
     layers: [mapquestOSM,hikes] //[mapquestOSM, boroughs, subwayLines, churchs]
 });
-// console.log(hikes);
-
+/*
 		hikes.eachLayer(function (layer) {
 		    var id = layer._leaflet_id;
-			var name = layer.feature.properties.Date;
+			var name = layer.feature.properties.Name;
 			var coords = layer.feature.geometry.coordinates;
 			var lng = layer.feature.geometry.coordinates[0];
 			var lat = layer.feature.geometry.coordinates[1];
@@ -126,11 +137,9 @@ map = L.map("map", {
 			
 			// Populate features array and build autocomplete
 			$(".list-group ul").append('<li><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+coords+'</a></li>');
-
-			console.log(coords);
+*/
 			// Populate sidebar table with clickable feature links
-			// Add features to zoom dropdown
-		});
+		
 
 
 
