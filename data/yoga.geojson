@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cicsh",
+        "url": "https://www.facebook.com/cicshoaxaca?fref=ts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7182284,
+          17.0686932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Prana Yoga",
+        "url": "https://www.facebook.com/pages/Prana-Yoga-Oaxaca/316968431685502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.726636,
+          17.068497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "SAT NAM",
+        "url": "https://www.facebook.com/satnamyogaymasajes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7268531,
+          17.0671409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alosja Yoga",
+        "url": "https://www.facebook.com/alosjayoga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.720818,
+          17.070049
+        ]
+      }
+    }
+  ]
+}

@@ -3,29 +3,11 @@
   "features": [
     {
       "type": "Feature",
-      "id": "01",
       "properties": {
-        "Date": "Nov 1",
-        "Location": "Oaxaca Panteon",
-        "Terrain": "City",
-        "Difficulty": "Easy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7587967,
-          17.1174164
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "02",
-      "properties": {
-        "Date": "3/4/2014",
         "Location": "Apoala",
         "Terrain": "Countryside",
-        "Difficulty": "Difficult"
+        "Difficulty": "Difficult",
+        "url": "http://www.hoofingitinoaxaca.com/apoala-more-information/"
       },
       "geometry": {
         "type": "Point",
@@ -37,12 +19,11 @@
     },
     {
       "type": "Feature",
-      "id": "03",
       "properties": {
-        "Date": "Dec 13",
         "Location": "Atzompa",
         "Terrain": "Archeological",
-        "Difficulty": "Moderate"
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/atzompa-more-information/"
       },
       "geometry": {
         "type": "Point",
@@ -54,18 +35,337 @@
     },
     {
       "type": "Feature",
-      "id": "04",
       "properties": {
-        "Date": "Dec 20",
-        "Location": "La Cumbre",
+        "Location": "Capulálpam",
         "Terrain": "Mountain",
-        "Difficulty": "Moderate"
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/capulalpam-more-information/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.6729431,
-          16.2861195
+          -96.444766,
+          17.307881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Cuajimoloyas",
+        "Terrain": "Mountain",
+        "Difficulty": "Mod & Hard",
+        "url": "http://www.hoofingitinoaxaca.com/benito-juarez-to-cuajimoloyas-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4529114,
+          17.1194401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Dainzu",
+        "Terrain": "Archeological",
+        "Difficulty": "Easy",
+        "url": "http://www.hoofingitinoaxaca.com/dainzu-to-tlacochahuaya-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3549576,
+          16.9101982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Guacamaya",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/guacamaya-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7521659,
+          17.1578401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Hierve el Aqua",
+        "Terrain": "Springs",
+        "Difficulty": "Easy",
+        "url": "http://www.hoofingitinoaxaca.com/hierve-el-agua-2/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.261673,
+          16.8943062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Huayapam",
+        "Terrain": "Countryside",
+        "Difficulty": "Easy",
+        "url": "http://www.hoofingitinoaxaca.com/huayapam-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6666031,
+          17.1021996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Jalapa del Valle",
+        "Terrain": "Countryside",
+        "Difficulty": "Easy",
+        "url": "http://www.hoofingitinoaxaca.com/jalapa-del-valle-to-cieneguilla-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8641127,
+          17.0637256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "La Cumbre",
+        "Terrain": "Mountain",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/la-cumbre-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.603798,
+          17.173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "La Neveria",
+        "Terrain": "Mountain",
+        "Difficulty": "Mod and Easy",
+        "url": "http://www.hoofingitinoaxaca.com/la-neveria-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4141769,
+          16.8979607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Latuvi",
+        "Terrain": "Mountain",
+        "Difficulty": "Difficult",
+        "url": "http://www.hoofingitinoaxaca.com/la-neveria-latuvi-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7184982,
+          16.9100151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Oaxaca Panteon",
+        "Terrain": "City",
+        "Difficulty": "Easy",
+        "url": "http://www.hoofingitinoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7587967,
+          17.1174164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Agustin Etla",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/san-agustin-etla-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7714996,
+          17.1777992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Bartolome",
+        "Terrain": "Countryside",
+        "Difficulty": "Easy",
+        "url": "http://www.hoofingitinoaxaca.com/san-bartolome-quiliana-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2810974,
+          17.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Pablo Cuatro Venados",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/san-pablo-cuatro-venados-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8902206,
+          16.9803104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Pablo Etla",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/san-pablo-etla-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7611008,
+          17.1459007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Sebastian de las Grutas",
+        "Terrain": "Cave",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/san-sebastian-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.014061,
+          16.7062187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Santa Ana del Valle",
+        "Terrain": "Archeological",
+        "Difficulty": "Difficult",
+        "url": "http://www.hoofingitinoaxaca.com/santa-ana-del-valle-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4702988,
+          16.9941006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Santo Domingo Tomaltepec",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/santo-domingo-tomaltepec-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.621737,
+          17.0595761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Tlalixtac",
+        "Terrain": "Countryside",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/tlalixtac-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6557999,
+          17.0585003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Yagul",
+        "Terrain": "Archeological",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/yagul-to-diaz-ordaz-moreinfo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4502792,
+          16.9583321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Zaachila",
+        "Terrain": "Archeological",
+        "Difficulty": "Moderate",
+        "url": "http://www.hoofingitinoaxaca.com/zaachila-cuilapam-more-information/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7502747,
+          16.9553776
         ]
       }
     }

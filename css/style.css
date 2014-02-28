@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Varela Round';
+  font-style:  normal;
+  font-weight: 400;
+ 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Varela Round';
+}
+p, div {
+    font-family: 'Varela Round';
+}
+
+
 html, body, #sidebar, #container {
             height: 100%;
             margin: 0px;
@@ -74,8 +89,8 @@ html, body, #sidebar, #container {
         .leaflet-popup-content {
             margin-top: 8px;
             margin-bottom: 0px;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin-left: 7px;
+            margin-right: 7px;
         }
         .panel-heading a:hover {
             text-decoration: none;
@@ -131,9 +146,9 @@ html, body, #sidebar, #container {
         .leaflet-popup-content {
             margin-top: 8px;
             margin-bottom: 0px;
-            margin-left: 20px;
-            margin-right: 20px;
-            line-height: 1.2;
+            margin-left: 7px;
+            margin-right: 7px;
+            line-height: 1.5;
             padding-bottom: 5px;
         }
         
@@ -211,3 +226,10 @@ button.list-group-item.active, button.list-group-item.active:hover {
 		    
 		    
 		}
+		
+		
+.panel-group .panel {
+margin-bottom: 10px;
+overflow: hidden;
+border-radius: 4px;
+}
