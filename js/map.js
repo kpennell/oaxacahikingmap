@@ -70,6 +70,7 @@ var mapquestOSM = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.
     subdomains: ["otile1", "otile2", "otile3", "otile4"],
     attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
 });
+/*
 var mapquestOAM = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
     maxZoom: 18,
     subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
@@ -82,7 +83,9 @@ var mapquestHYB = L.layerGroup([L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/sa
     maxZoom: 19,
     subdomains: ["oatile1", "oatile2", "oatile3", "oatile4"],
     attribution: 'Labels courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA. Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency'
-})]);
+})]);  
+
+*/
 
 
 // map icons
@@ -94,17 +97,12 @@ var hike_icon = L.icon({
     popupAnchor: [0, -28]
 });
 
-
-
-
-// Overlay Layers
 var ngo_icon = L.icon({
     iconUrl: 'img/ngo.png',
     iconSize: [32, 37],
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
 
 var mezcal_icon = L.icon({
     iconUrl: 'img/agaveicon.png',
@@ -127,10 +125,6 @@ var pueblos_icon = L.icon({
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
-
-
-
 
 var hikes = L.geoJson(null, {
     
@@ -163,7 +157,9 @@ var hikes = L.geoJson(null, {
 			
 			
 			// Append clickable list to sidebar
-			$("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+location+'</a></button>');
+		//	$("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+location+'</a></button>');
+        
+			$("#collapseTwo").append('<div><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+location+'</a></div>');
         
     }
 });
@@ -376,6 +372,7 @@ var overlays = {
     "hikes": hikes,
     "ngos": ngos,
 };
+
 
 // var layerControl = L.control.layers(baseLayers, overlays, {
 //     collapsed: isCollapsed
