@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tule",
+        "what": " 2,000-Year-Old Tree",
+        "url": "http://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_del_Tule"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6348038,
+          17.0438499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Arrazola",
+        "what": " Woodcarving Capital ",
+        "url": "http://en.wikipedia.org/wiki/Alebrije#Arrazola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7584472,
+          17.0221044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Yagul",
+        "what": " Zapotec Fortress",
+        "url": "http://en.wikipedia.org/wiki/Yagul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4502792,
+          16.9583321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Teotitlan del Valle",
+        "what": "Beautiful Rugs",
+        "url": "http://en.wikipedia.org/wiki/Teotitl%C3%A1n_del_Valle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5189972,
+          17.0279999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Bartolo Coyotepec",
+        "what": "Black Pottery",
+        "url": "http://en.wikipedia.org/wiki/San_Bartolo_Coyotepec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7073898,
+          16.95784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Cuilapan",
+        "what": "Dominican Monastery ",
+        "url": "en.wikipedia.org/wiki/Cuilapan_de_Guerrero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7822571,
+          16.9933701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Monte Alban",
+        "what": "Famous landmark ruins site",
+        "url": "http://en.wikipedia.org/wiki/Oaxaca,_Oaxaca#Monte_Alb.C3.A1n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7671651,
+          17.0438757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Ocotlan",
+        "what": "Large market town",
+        "url": "http://en.wikipedia.org/wiki/Ocotl%C3%A1n_de_Morelos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6801682,
+          16.7841606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Mitla",
+        "what": "Large Zapotec & Mixtec Site",
+        "url": "http://en.wikipedia.org/wiki/Mitla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3580017,
+          16.9200993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Tlatcolula",
+        "what": "Market & Chapel",
+        "url": "http://en.wikipedia.org/wiki/Tlacolula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4738998,
+          16.9640999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Zachilla",
+        "what": "Market and Mixtec Tombs ",
+        "url": "http://en.wikipedia.org/wiki/Zaachila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7502747,
+          16.9553776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San José El Mogote",
+        "what": "pre-Hispanic village-dweller museum",
+        "url": "http://en.wikipedia.org/wiki/San_Jos%C3%A9_Mogote"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6848984,
+          16.6872005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Lambityeco",
+        "what": "Rain God Stucco Masks",
+        "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CCgQFjAB&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLambityeco&ei=IcgUU7-rHab22AW3zoHgDQ&usg=AFQjCNEoe1T8b-ctZrRjOFwgRrQvalZcmQ&sig2=-99rfBMrRsYkPeVT7FI3dA&bvm=bv.61965928,d.b2I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4848022,
+          16.9657249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Martin Tilcajete",
+        "what": "Woodcarving Village",
+        "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CCQQFjAA&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSan_Mart%25C3%25ADn_Tilcajete&ei=M8gUU-qkBrL62gWXt4HgCg&usg=AFQjCNGCDIYKAD4dLeTB85CZdf7d6LEAnw&sig2=59QLnRBoqbjs9XUtcJzHHA&bvm=bv.61965928,d.b2I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6951828,
+          16.8591099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Dainzú",
+        "what": "Zapotec Ruins",
+        "url": "http://en.wikipedia.org/wiki/Dainz%C3%BA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3549576,
+          16.9101982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Atzompa",
+        "what": "Green glazed pottery and Ruins",
+        "url": "http://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_Atzompa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7701721,
+          17.0921402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "San Pablo Guelatao",
+        "what": "Birthplace of Benito Juarez",
+        "url": "http://en.wikipedia.org/wiki/San_Pablo_Guelatao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4955978,
+          17.3169003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Hierve del Agua",
+        "what": "Mineral Springs",
+        "url": "http://en.wikipedia.org/wiki/Hierve_el_Agua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2759506,
+          16.866119 
+          ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Ixtlan",
+        "what": "Ecotourism Town",
+        "url": "http://en.wikipedia.org/wiki/Ixtl%C3%A1n_de_Ju%C3%A1rez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4873643,
+          17.3321807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Yanhuitlan",
+        "what": "Temple",
+        "url": "http://en.wikipedia.org/wiki/Santo_Domingo_Yanhuitl%C3%A1n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3448105,
+          17.5294609
+        ]
+      }
+    }
+  ]
+}

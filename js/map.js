@@ -121,6 +121,14 @@ var yoga_icon = L.icon({
 });
 
 
+var pueblos_icon = L.icon({
+    iconUrl: 'img/pueblos.png',
+    iconSize: [32, 37],
+    iconAnchor: [16, 37],
+    popupAnchor: [0, -28]
+});
+
+
 
 
 
@@ -232,15 +240,15 @@ var mezcal = L.geoJson(null, {
         
         
 		var id = layer._leaflet_id;
-			var name = layer.feature.properties.Date;
+			var name = layer.feature.properties.Name;
 			var coords = layer.feature.geometry.coordinates;
-			var location = layer.feature.properties.Location;
+			var Website = layer.feature.properties.Website;
 			var lng = layer.feature.geometry.coordinates[0];
 			var lat = layer.feature.geometry.coordinates[1];
 			
 			
 			// Append clickable list to sidebar
-			$("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+location+'</a></button>');
+			$("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+name+'</a></button>');
         
     }
 });
@@ -271,9 +279,38 @@ var yoga = L.geoJson(null, {
         
         
 		var id = layer._leaflet_id;
-			var name = layer.feature.properties.Date;
+			var name = layer.feature.properties.Name;
 			var coords = layer.feature.geometry.coordinates;
 			var location = layer.feature.properties.Location;
+			var lng = layer.feature.geometry.coordinates[0];
+			var lat = layer.feature.geometry.coordinates[1];
+			
+			
+			// Append clickable list to sidebar
+			$("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers['+id+'].openPopup(); return false;">'+name+'</a></button>');
+        
+    }
+});
+
+$.getJSON("data/yoga.geojson", function (data) {
+    yoga.addData(data);
+});
+
+var pueblos = L.geoJson(null, {
+    
+    pointToLayer: function (feature, latlng) {
+	            return L.marker(latlng, {
+	                icon: pueblos_icon
+	                
+	            });
+	        },
+	onEachFeature: function (feature, layer) {
+		        layer.bindPopup("<b>Place: </b>" + feature.properties.location + "</br>" + "<b>What to see: </b>" + feature.properties.what + "</br>" + '<a target="_blank" href="' + feature.properties.url + '">' + 'More Info</a>',
+        {maxWidth: 500, minWidth: 100, maxHeight: 260, closeButton: true, showOnMouseOver: true});
+        
+			var id = layer._leaflet_id;
+			var location = layer.feature.properties.location;
+			var what = layer.feature.geometry.what;
 			var lng = layer.feature.geometry.coordinates[0];
 			var lat = layer.feature.geometry.coordinates[1];
 			
@@ -284,9 +321,10 @@ var yoga = L.geoJson(null, {
     }
 });
 
-$.getJSON("data/yoga.geojson", function (data) {
-    yoga.addData(data);
+$.getJSON("data/pueblos.geojson", function (data) {
+    pueblos.addData(data);
 });
+
 
 
 
@@ -294,7 +332,7 @@ $.getJSON("data/yoga.geojson", function (data) {
 map = L.map("map", {
     zoom: 12,
     center: new L.LatLng(17.059417, -96.721622),
-    layers: [mapquestOSM,hikes,ngos,mezcal,yoga] //[mapquestOSM, boroughs, subwayLines, churchs]
+    layers: [mapquestOSM,hikes,ngos,mezcal,yoga,pueblos] //[mapquestOSM, boroughs, subwayLines, churchs]
 });
 /*
 		hikes.eachLayer(function (layer) {
