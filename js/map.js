@@ -195,7 +195,7 @@ var ngos = L.geoJson(null, {
 
 
         // Append clickable list to sidebar
-        $("#listy").append('<div><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + Organization + '</a></div>');
+       // $("#listy").append('<div><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + Organization + '</a></div>');
 
     }
 });
@@ -353,19 +353,15 @@ var ui = document.getElementById('layer-ui');
 
 // Experimenting using new icons
 
-var pueblos_icon2 = 'img/pueblos.png';
-var hike_icon2 = 'img/hiker.png';
-var ngo_icon2 = 'img/ngo.png';
-var mezcal_icon2 = 'img/agaveicon.png'
-var yoga_icon2 = 'img/yoga.png';
 
-addLayer(pueblos, 'Pueblos', 1, pueblos_icon2);
-addLayer(ngos, 'NGOs', 1, ngo_icon2);
-addLayer(yoga, 'Yoga', 1, yoga_icon2);
-addLayer(mezcal, 'Mezcalerias', 1, mezcal_icon2);
-addLayer(hikes, 'Hikes', 1, hike_icon2);
 
-function addLayer(layer, name, zIndex, image) {
+addLayer(pueblos, 'Pueblos', 1);
+addLayer(ngos, 'NGOs', 1);
+addLayer(yoga, 'Yoga', 1);
+addLayer(mezcal, 'Mezcalerias', 1);
+addLayer(hikes, 'Hikes', 1);
+
+function addLayer(layer, name, zIndex) {
     layer
     //.setZIndex(zIndex)
     .addTo(map);
