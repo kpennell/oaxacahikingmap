@@ -2,7 +2,6 @@
   font-family: 'Varela Round';
   font-style:  normal;
   font-weight: 400;
- 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,9 +54,15 @@ html, body, #sidebar, #container {
         .navbar .navbar-brand {
 
             font-weight: bold;
-            font-size: 22px;
+            font-size: 25px;
             color: white;
             white-space: nowrap;
+        }
+        
+        .navbar-nav {
+            float: right;
+            margin: 0;
+            
         }
         .tt-dropdown-menu {
             overflow: auto;
@@ -295,21 +300,22 @@ border-radius: 4px;
 }
 
 #layer-ui li {
-    display: inline-block;
+    display: block;
+    cursor: pointer;
 }
 
 #layer-ui a {
     font-family: 'Varela Round';
     display: inline-block;
     color: #CCCCCC;
-    font-size: 13px;
+    font-size: 22px;
     text-decoration: none;
     white-space: nowrap;
     /*background-color: rgba(255, 255, 255, 0.75); */
     margin-right: 0px;
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: 0px;
+    margin-left: -1px;
     width: 85px;
     text-align: left;
     border-radius: 2px;
@@ -328,15 +334,111 @@ border-radius: 4px;
 }
 
 #about {
-    background: #f8f8f8;
+    background: #FFFFFF;
     z-index:1;
     position: relative;
-    padding: 5px 50px 5px 15px;
+    padding: 5px 0px 5px 15px;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     color: #999;
 }
 
+
 #about span:nth-child(2) {
     color: #B1F1FD;
+}
+
+#listy {
+    padding: 5px 0px 5px 15px;
+}
+
+.listish a {
+     color: #B1F1FD;
+     font-size: 20px;
+     
+}
+
+.listish.hover  {
+     color: #f8f8f8;
+     font-size: 30px;
+     background: #f8f8f8;
+}
+
+
+#listy a {
+    font-family: 'Varela Round';
+    display: inline-block;
+    color: #CCCCCC;
+    font-size: 15px;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: -1px;
+    width: 85px;
+    text-align: left;
+    border-radius: 2px;
+    /*border: 1px solid;
+    border-color: rgba(0,0,0,0); */
+}    
+
+#listy a.active {
+    background-color: green;
+}
+
+.listy-item.active {
+    background-color: green;
+}
+
+
+#geolocate {
+    background: #fff;
+    position: relative;
+    top: 71px;
+    left: 1px;
+    float: right;
+    width: 28px;
+    height: 28px;
+    z-index: 1000;
+    font: 10px;
+    text-align: center;
+    padding: 3px 0 0 0;
+    color: #3C4E5A;
+    display: block;
+    border: 1px solid #BBB;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#geolocate:hover {
+    background: #ECF5FA;
+}
+
+.leaflet-right .leaflet-control {
+margin-right: 15px;
+}
+
+
+
+.navbar-collapse {
+max-height: 340px;
+padding-right: 2px;
+padding-left: 15px;
+}
+
+#aboutpage {
+margin: 0 0.5em 1.5em;
+padding: 8px;
+font-size: 15px;
+}
+
+.modal-title {
+margin: 0;
+line-height: 0.428571;
+}
+
+.modal-header .close {
+margin-top: -7px;
 }

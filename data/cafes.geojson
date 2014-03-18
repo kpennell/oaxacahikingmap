@@ -1,0 +1,397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Jaguar Yuú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72284743,
+          17.06342292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe Tulipan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.721435,
+          17.061899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Brújula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72436797,
+          17.06263619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "San Pablo Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72316074,
+          17.0612976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Brújula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72479122,
+          17.065563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe Nuevo Mundo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72539234,
+          17.06502074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café La organizacion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72363281,
+          17.06162643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Los Cuiles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72358453,
+          17.06436432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe Arabia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72118664,
+          17.07016941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe La Antigua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.721931,
+          17.064611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café El Importador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72504726,
+          17.06031013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72588332,
+          17.06517755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Libertad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72509429,
+          17.06297669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Borbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.71656251,
+          17.06594382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Santa Cruz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.71985872,
+          17.06412656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Arabia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.714054,
+          17.082842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Royal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72497933,
+          17.06497454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Platino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.723464,
+          17.05784787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe Brujula UABJO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.70989559,
+          17.04886237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe Kioo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7249323,
+          17.06560247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café 1886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72108658,
+          17.06986701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Etrusca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72294617,
+          17.06836319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Cafe Dubai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.71316147,
+          17.07477439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Del Sol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.721092,
+          17.054476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Morena Mia Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72233582,
+          17.06063652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Casa Mayor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.73097828,
+          17.06373232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Cuervo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.71720452,
+          17.07121623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": " Café Banff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.714306,
+          17.080106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lobo Azul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.724166,
+          17.0593846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "De Italian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7247045,
+          17.0608219
+        ]
+      }
+    }
+  ]
+}
+
+

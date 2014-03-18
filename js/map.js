@@ -10,7 +10,6 @@ $(document).ready(function () {
 $(window).resize(function () {
     $('.tt-dropdown-menu').css('max-height', $('#container').height() - $('.navbar').height() - 20);
 });
-
 $('a.toggle').click(function () {
     $('a.toggle i').toggleClass('icon-chevron-left icon-chevron-right');
     $('#map').toggleClass('col-sm-9 col-lg-9 col-sm-12 col-lg-12');
@@ -19,106 +18,64 @@ $('a.toggle').click(function () {
     return false;
 });
 
-/*
-$('input[name="basemapLayers"]').change(function () {
-    // Remove unchecked layers
-    $('input:radio[name="basemapLayers"]:not(:checked)').each(function () {
-        map.removeLayer(window[$(this).attr('id')]);
-    });
-    // Add checked layer
-    $('input:radio[name="basemapLayers"]:checked').each(function () {
-        map.addLayer(window[$(this).attr('id')]);
-    });
-}); 
-
-
-
-$('input:checkbox[name="overlayLayers"]').change(function () {
-    var layers = [];
-    function sortByKey(array, key) {
-        return array.sort(function (a, b) {
-            var x = a[key];
-            var y = b[key];
-            return ((x < y) ? -1 : ((x > y) ? 1 : 0));
-        });
-    }
-    if ($('#' + $(this).attr('id')).is(':checked')) {
-        $('input:checkbox[name="overlayLayers"]').each(function () {
-            // Remove all overlay layers
-            map.removeLayer(window[$(this).attr('id')]);
-            if ($('#' + $(this).attr('id')).is(':checked')) {
-                // Add checked layers to array for sorting
-                layers.push({
-                    'z-index': $(this).attr('z-index'),
-                    'layer': $(this)
-                });
-            }
-        });
-        // Sort layers array by z-index
-        var orderedLayers = sortByKey(layers, 'z-index');
-        // Loop through ordered layers array and add to map in correct order
-        $.each(orderedLayers, function () {
-            map.addLayer(window[$(this)[0].layer[0].id]);
-        });
-    } else {
-        // Simply remove unchecked layers
-        map.removeLayer(window[$(this).attr('id')]);
-    }
-});
-*/
-
-// Basemap Layer
-var mapquestOSM = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png", {
-    maxZoom: 19,
+var tiles = L.tileLayer("http://b.tile.cloudmade.com/427d7a7244db4c62b51b1ee252996cc0/1714/256/{z}/{x}/{y}.png", {
+    maxZoom: 17,
     subdomains: ["otile1", "otile2", "otile3", "otile4"],
-    attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
+    attribution: 'Tiles by CloudMade.'
 });
 
 
 
+
+//http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png
 
 // map icons
-
 var hike_icon = L.icon({
     iconUrl: 'img/hiker.png',
     iconSize: [32, 37],
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
 var ngo_icon = L.icon({
     iconUrl: 'img/ngo.png',
     iconSize: [32, 37],
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
 var mezcal_icon = L.icon({
     iconUrl: 'img/agaveicon.png',
     iconSize: [32, 37],
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
 var yoga_icon = L.icon({
     iconUrl: 'img/yoga.png',
     iconSize: [32, 37],
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
-
 var pueblos_icon = L.icon({
     iconUrl: 'img/pueblos.png',
     iconSize: [32, 37],
     iconAnchor: [16, 37],
     popupAnchor: [0, -28]
 });
-
+var cafe_icon = L.icon({
+    iconUrl: 'img/coffee.png',
+    iconSize: [32, 37],
+    iconAnchor: [16, 37],
+    popupAnchor: [0, -28]
+});
+var market_icon = L.icon({
+    iconUrl: 'img/market.png',
+    iconSize: [32, 37],
+    iconAnchor: [16, 37],
+    popupAnchor: [0, -28]
+});
 
 
 var hikes = L.geoJson(null, {
-
+    
     pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {
             icon: hike_icon
@@ -131,9 +88,9 @@ var hikes = L.geoJson(null, {
             maxWidth: 500,
             minWidth: 100,
             maxHeight: 260,
-            closeButton: true,
-            showOnMouseOver: true
+            closeButton: true
         });
+        
 
         var id = layer._leaflet_id;
         var name = layer.feature.properties.Date;
@@ -154,15 +111,6 @@ var hikes = L.geoJson(null, {
 $.getJSON("data/hikes.geojson", function (data) {
     hikes.addData(data);
 });
-
-/*
- pointToLayer: function (feature, latLng) {
-          return new L.Marker(latLng, {
-            icon: new BaseIcon({
-              iconUrl: "img/library-" + feature.properties.plan + ".png"
-            })
-          })
-          */
 
 var ngos = L.geoJson(null, {
     pointToLayer: function (feature, latlng) {
@@ -203,7 +151,6 @@ var ngos = L.geoJson(null, {
 $.getJSON("data/ngos.geojson", function (data) {
     ngos.addData(data);
 });
-
 
 var mezcal = L.geoJson(null, {
 
@@ -248,7 +195,6 @@ $.getJSON("data/mezcal.geojson", function (data) {
     mezcal.addData(data);
 });
 
-
 var yoga = L.geoJson(null, {
 
     pointToLayer: function (feature, latlng) {
@@ -283,7 +229,7 @@ var yoga = L.geoJson(null, {
 
 
         // Append clickable list to sidebar
-        $("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + name + '</a></button>');
+        // $("#listy").append('<div class="listish"><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + name + '</a></div>');
 
     }
 });
@@ -293,11 +239,9 @@ $.getJSON("data/yoga.geojson", function (data) {
 });
 
 var pueblos = L.geoJson(null, {
-
     pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {
             icon: pueblos_icon
-
         });
     },
     onEachFeature: function (feature, layer) {
@@ -308,17 +252,18 @@ var pueblos = L.geoJson(null, {
             closeButton: true,
             showOnMouseOver: true
         });
+        
+       //console.log(layer);
 
         var id = layer._leaflet_id;
         var location = layer.feature.properties.location;
         var what = layer.feature.geometry.what;
         var lng = layer.feature.geometry.coordinates[0];
         var lat = layer.feature.geometry.coordinates[1];
-
+        
 
         // Append clickable list to sidebar
-        $("#list-group-container").append('<button class="list-group-item><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + location + '</a></button>');
-
+        $("#listy").append('<div class="listy-item"><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + location + '</a></div>');
     }
 });
 
@@ -327,55 +272,107 @@ $.getJSON("data/pueblos.geojson", function (data) {
 });
 
 
+var cafes = L.geoJson(null, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {
+            icon: cafe_icon
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup(feature.properties.Name, {
+            maxWidth: 500,
+            minWidth: 50,
+            maxHeight: 260,
+            closeButton: true,
+            showOnMouseOver: true
+        });
+        
+       //console.log(layer);
 
+        var id = layer._leaflet_id;
+        var Name = layer.feature.properties.Name;
+        var lng = layer.feature.geometry.coordinates[0];
+        var lat = layer.feature.geometry.coordinates[1];
+        
 
-
-map = L.map("map", {
-    zoom: 12,
-    center: new L.LatLng(17.059417, -96.721622),
-    layers: [mapquestOSM, hikes, ngos, mezcal, yoga] //[mapquestOSM, boroughs, subwayLines, churchs]
+        // Append clickable list to sidebar
+        $("#listy").append('<div class="listy-item"><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + Name + '</a></div>');
+    }
 });
 
+$.getJSON("data/cafes.geojson", function (data) {
+    cafes.addData(data);
+});
 
-// experiment
+var markets = L.geoJson(null, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {
+            icon: market_icon
+        });
+    },
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("<b>Market: </b>" + feature.properties.Name + "</br>" + "<b>Open: </b>" + feature.properties.Open + "</br>" + '<a target="_blank" href="' + feature.properties.url + '">' + 'More Info</a>', {
+            maxWidth: 500,
+            minWidth: 100,
+            maxHeight: 260,
+            closeButton: true,
+            showOnMouseOver: true
+        });
+        
+       //console.log(layer);
 
+        var id = layer._leaflet_id;
+        var Name = layer.feature.properties.Name;
+        var lng = layer.feature.geometry.coordinates[0];
+        var lat = layer.feature.geometry.coordinates[1];
+        
 
+        // Append clickable list to sidebar
+        $("#listy").append('<div class="listy-item"><a href="#" onclick="map._layers[' + id + '].openPopup(); return false;">' + Name + '</a></div>');
+    }
+});
 
+$.getJSON("data/markets.geojson", function (data) {
+    markets.addData(data);
+});
 
+map = L.map("map", {
+    zoom: 15,
+    center: new L.LatLng(17.0669428,-96.7229346),
+    layers: [tiles, hikes, ngos, mezcal, yoga],
+    zoomControl: false
+});
+
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
+// Layer Controls
 
 var ui = document.getElementById('layer-ui');
 
-/*
+addLayer(pueblos, 'Day trips', 1);
+addLayer(ngos, 'NGOs', 2);
+addLayer(yoga, 'Yoga', 3);
+addLayer(mezcal, 'Mezcalerias', 4);
+addLayer(hikes, 'Hikes', 5);
+addLayer(cafes, 'Cafés', 6);
+addLayer(markets, 'Markets', 7);
 
-// addLayer(L.mapbox.tileLayer('smartchicagocollaborative.fz60qkt9'), '1900-1949', 2);
-  */
-
-
-// Experimenting using new icons
-
-
-
-addLayer(pueblos, 'Pueblos', 1);
-addLayer(ngos, 'NGOs', 1);
-addLayer(yoga, 'Yoga', 1);
-addLayer(mezcal, 'Mezcalerias', 1);
-addLayer(hikes, 'Hikes', 1);
 
 function addLayer(layer, name, zIndex) {
     layer
     //.setZIndex(zIndex)
     .addTo(map);
+    
+    
+    //layer.on('click', function(d) {
+    //console.log(this._leaflet_id);
+        
+    //});
 
     // Layer toggler
     var item = document.createElement('li');
     var link = document.createElement('a');
-    //$(item).append('<img src="' + image + '"/>');
-
-
-
-
-    // '<img id="theImg" src="img/agaveicon.png" height="28" width="24" />'
-
+    
     //link.href = '#';
     link.className = 'active';
     link.innerHTML = name;
@@ -391,11 +388,13 @@ function addLayer(layer, name, zIndex) {
             map.addLayer(layer);
             this.className = 'active';
         }
-    };
+        
+    }
 
     item.appendChild(link);
     ui.appendChild(item);
 }
+
 
 var scaleControl = L.control.scale({
     position: 'bottomright'
@@ -410,12 +409,12 @@ if (document.body.clientWidth <= 767) {
 };
 
 var baseLayers = {
-    "Streets": mapquestOSM
+    "Streets": tiles
 };
 
 var overlays = {
     "hikes": hikes,
-        "ngos": ngos,
+    "ngos": ngos,
 };
 
 // Placeholder hack for IE
@@ -431,4 +430,75 @@ if (navigator.appName == "Microsoft Internet Explorer") {
             });
         }
     });
+}
+
+
+
+// GEO
+
+var geolocate = document.getElementById('geolocate');
+
+
+if (!navigator.geolocation) {
+    geolocate.innerHTML = 'geolocation is not available';
+} else {
+    geolocate.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        map.locate();
+    };
+}
+
+// Once we've got a position, zoom and center the map
+// on it, and add a single marker.
+map.on('locationfound', function(e) {
+    map.fitBounds(e.bounds);
+    
+    
+    
+    
+    //L.marker([50.505, 30.57], {icon: myIcon}).addTo(map);
+    
+    new L.marker(e.latlng).addTo(map) // works
+    
+    /*
+    new L.marker({
+        type: "Feature",
+        geometry: {
+            type: "Point",
+            coordinates: [e.latlng.lng, e.latlng.lat]
+        },
+        properties: {
+            'marker-color': '#DB3156',
+            'marker-symbol': 'embassy'
+        }
+    }).addto(map); */
+    //here.addto(map);
+ });
+
+// If the user chooses not to allow their location
+// to be shared, display an error message.
+map.on('locationerror', function() {
+    geolocate.innerHTML = '&#x274C;';
+});
+
+    var tooltip = this.callbacks._currentTooltip;
+if (tooltip){
+
+  // Default offset is bottom right
+  var offsetX = 20;
+  var offsetY = 20;
+
+  // Check if horizontal space
+  if ((pos.x + tooltip.offsetWidth + offsetX + 5) > this.map.size.w) {
+    offsetX = -tooltip.offsetWidth - 5;
+  }
+
+  // Check if vertical space
+  if ((pos.y + tooltip.offsetHeight + offsetY + 5) > this.map.size.h) {
+    offsetY = -35;
+  }
+
+  tooltip.style.left = pos.x + offsetX + 'px';
+  tooltip.style.top = pos.y + offsetY + 'px';
 }

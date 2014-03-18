@@ -8,7 +8,7 @@
         "Organization": "Hijos de la Luna",
         "Type": "Working with Children",
         "Website": "http://www.hijosdelaluna-en.org/",
-        "What_they_do": "is a children's home that takes care of over 50 children"
+        "What_they_do": "A children's home that takes care of over 50 children."
       },
       "geometry": {
         "type": "Point",
@@ -25,7 +25,7 @@
         "Organization": "GesMujer",
         "Type": "Human Rights",
         "Website": "http://www.gesmujer.org/web/",
-        "What_they_do": " works to promote social equality and women’s well-being through various initiatives"
+        "What_they_do": "Works to promote social equality and women’s well-being through various initiatives."
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +42,7 @@
         "Organization": "COMI",
         "Type": "Human Rights",
         "Website": "http://www.facebook.com/COMIoaxaca",
-        "What_they_do": " is a refuge for migrants traveling North through Mexico."
+        "What_they_do": "Is a refuge for migrants traveling North through Mexico."
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +59,7 @@
         "Organization": "EDUCA",
         "Type": "Human Rights",
         "Website": "http://www.educaoaxaca.org/",
-        "What_they_do": "promotes democracy and development, justice and equality in Oaxacan communities"
+        "What_they_do": "Promotes democracy and development, justice and equality in Oaxacan communities."
       },
       "geometry": {
         "type": "Point",
@@ -76,7 +76,7 @@
         "Organization": "Piña Palmera",
         "Type": "Health",
         "Website": "http://www.pinapalmera.org/",
-        "What_they_do": " works in the southern coast of Oaxaca to provide rehabilitation, social integration and information to people with disabilities"
+        "What_they_do": "Works in the southern coast of Oaxaca to provide rehabilitation, social integration and information to people with disabilities."
       },
       "geometry": {
         "type": "Point",
@@ -94,6 +94,7 @@
         "Type": "Environment",
         "Website": "http://tierradelsol.org.mx/web/",
         "What_they_do": "is a permaculture and sustainable living center based on the outskirts of Oaxaca City. "
+
       },
       "geometry": {
         "type": "Point",
@@ -110,7 +111,7 @@
         "Organization": "Canica",
         "Type": "Working with Children",
         "Website": "http://www.canicadeoaxaca.org.mx/",
-        "What_they_do": "works to improve the lives and livelihoods of street children in Oaxaca "
+        "What_they_do": "Works to improve the lives and livelihoods of street children in Oaxaca."
       },
       "geometry": {
         "type": "Point",
@@ -127,7 +128,7 @@
         "Organization": "Divertigranja",
         "Type": "Environment",
         "Website": "http://www.divertigranja.org/",
-        "What_they_do": "is a farm/petting zoo for children with and without disabilities"
+        "What_they_do": "Is a farm/petting zoo for children with and without disabilities."
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +145,7 @@
         "Organization": "Clínica del Pueblo",
         "Type": "Health",
         "Website": "http://www.clinicadelpueblo.org.mx/",
-        "What_they_do": "  provides healthcare services to people with scarce economic resources"
+        "What_they_do": "Provides healthcare services to people with scarce economic resources."
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +162,7 @@
         "Organization": "Oaxaca Learning Center",
         "Type": "Education",
         "Website": "http://www.tolc.org.mx/",
-        "What_they_do": "offers free tutoring to students 14 years and older with no financial resources, many of whom have traveled alone from small villages to attend high school in Oaxaca City."
+        "What_they_do": "Offers free tutoring to students 14 years and older with no financial resources, many of whom have traveled alone from small villages to attend high school in Oaxaca City."
       },
       "geometry": {
         "type": "Point",
@@ -178,7 +179,7 @@
         "Organization": "Consorcio",
         "Type": "Human Rights",
         "Website": "http://consorciooaxaca.org.mx/",
-        "What_they_do": " is a women’s rights organization started over 10 years ago in Oaxaca "
+        "What_they_do": "Is a women’s rights organization started over 10 years ago in Oaxaca."
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +196,7 @@
         "Organization": "Foro Oaxaqueño de la Niñez",
         "Type": "Working with Children",
         "Website": "http://www.foni.org.mx/",
-        "What_they_do": "is a network of 16 organizations all focused on children"
+        "What_they_do": "Is a network of 16 organizations all focused on children."
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +213,7 @@
         "Organization": "INSO ",
         "Type": "Environment",
         "Website": "http://insoaxaca.wordpress.com/",
-        "What_they_do": "(Instituto de la Naturaleza y Sociedad de Oaxaca) works with alternative technologies, such as clean-burning stoves, eco toilets and water conservation."
+        "What_they_do": "Works with alternative technologies, such as clean-burning stoves, eco toilets and water conservation."
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +230,7 @@
         "Organization": "Mundo Ceiba",
         "Type": "Environment",
         "Website": "http://www.facebook.com/mundoceiba/",
-        "What_they_do": "promote the use of bicycles in Oaxaca with a number of different initiatives"
+        "What_they_do": "Promote the use of bicycles in Oaxaca with a number of different initiatives."
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +247,7 @@
         "Organization": "Hub Oaxaca",
         "Type": "Community",
         "Website": "http://www.huboaxaca.org/",
-        "What_they_do": " is a shared working space for social projects in Oaxacaspan"
+        "What_they_do": "Is a shared working space for social projects in Oaxaca."
       },
       "geometry": {
         "type": "Point",
@@ -262,14 +263,14 @@
         "id": "16",
         "Organization": "Fundación En Via",
         "Type": "Community",
-        "Website": "http://www.envia.org/volunteer/",
-        "What_they_do": "combines tourism and micro-finance to fight poverty by providing interest-free microloans to help women in Oaxaca start or expand their small businessesspan"
+        "Website": "http://www.envia.org/",
+        "What_they_do": "Combines tourism and micro-finance to fight poverty by providing interest-free microloans to help women in Oaxaca start or expand their small businesses."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.718848,
-          17.071841
+          -96.719548,
+          17.071241
         ]
       }
     },
@@ -280,7 +281,7 @@
         "Organization": "Ideas Comunitarias",
         "Type": "Community",
         "Website": "http://www.ideascomunitarias.org.mx/",
-        "What_they_do": "works to generate a society with justice and dignity by working with communities to build healthy relationships in harmony with their environment.span"
+        "What_they_do": "Works to generate a society with justice and dignity by working with communities to build healthy relationships in harmony with their environment."
       },
       "geometry": {
         "type": "Point",
@@ -297,7 +298,7 @@
         "Organization": "Libros para Pueblos",
         "Type": "Community",
         "Website": "http://librosparapueblos.org/",
-        "What_they_do": "works to provide books and libraries to marginalized communities in Oaxacaspan"
+        "What_they_do": "Works to provide books and libraries to marginalized communities in Oaxaca."
       },
       "geometry": {
         "type": "Point",
@@ -314,24 +315,7 @@
         "Organization": "Puente a la Salud Comunitaria",
         "Type": "Environment",
         "Website": "http://www.puentemexico.org",
-        "What_they_do": "contributes to food sovereignty and advances the health and well-being of rural communities in Mexico by promoting the consumption, production, and comercialization of amaranth"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.7143245,
-          17.0760718
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20",
-        "Organization": "Puente a la Salud Comunitaria",
-        "Type": "Health",
-        "Website": "http://www.puentemexico.org",
-        "What_they_do": " works to promote health and food sovereignty through the cultivation, consumption and commercialization of amaranth"
+        "What_they_do": "Contributes to food sovereignty and advances the health and well-being of rural communities in Mexico by promoting the consumption, production, and commercialization of amaranth."
       },
       "geometry": {
         "type": "Point",
@@ -348,7 +332,7 @@
         "Organization": "Rainforest Alliance",
         "Type": "Environment",
         "Website": "http://www.rainforest-alliance.org/about",
-        "What_they_do": "works to conserve biodiversity and ensure sustainable livelihoods by transforming land-use practices, business practices and consumer behavior"
+        "What_they_do": "Works to conserve biodiversity and ensure sustainable livelihoods by transforming land-use practices, business practices and consumer behavior."
       },
       "geometry": {
         "type": "Point",
@@ -365,7 +349,7 @@
         "Organization": "Fundación Comunitaria de Oaxaca",
         "Type": "Community",
         "Website": "http://www.fundacion-oaxaca.org",
-        "What_they_do": "works to enhance the quality of life of vulnerable and marginalized populations of Oaxacaspan"
+        "What_they_do": "Works to enhance the quality of life of vulnerable and marginalized populations of Oaxaca."
       },
       "geometry": {
         "type": "Point",
@@ -382,7 +366,7 @@
         "Organization": "CORAL",
         "Type": "Health",
         "Website": "http://www.coraloaxaca.org/",
-        "What_they_do": " works with children and adults with hearing impairments both in the city and the surrounding communities."
+        "What_they_do": "Works with children and adults with hearing impairments both in the city and the surrounding communities."
       },
       "geometry": {
         "type": "Point",
@@ -399,7 +383,7 @@
         "Organization": "Nija’nu",
         "Type": "Community",
         "Website": "http://www.nijanu.org/",
-        "What_they_do": "works to improve the quality of life of elders living in extreme poverty in the Mixteca by providing them with food, shelter, and carespan"
+        "What_they_do": "Works to improve the quality of life of elders living in extreme poverty in the Mixteca by providing them with food, shelter, and care."
       },
       "geometry": {
         "type": "Point",
@@ -411,5 +395,4 @@
     }
   ]
 }
-
 

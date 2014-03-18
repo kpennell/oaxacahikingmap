@@ -46,10 +46,6 @@
                 href="#" onclick=
                 "$('#aboutModal').modal('show'); return false;">&nbsp;&nbsp;About</a></li>
 
-                <li><a data-target=".navbar-collapse.in" data-toggle="collapse"
-                href="#" onclick=
-                "$('#legendModal').modal('show'); return false;">&nbsp;&nbsp;Legend</a></li>
-
             </ul>
         </div>
     </div><!--/.navbar-collapse -->
@@ -64,14 +60,13 @@
         <div class="panel-group">
             <div id="about">
                 <ul id='layer-ui'>
-                    <li>Show me:</li>
-                    <br>
+                    <li>Explore:</li>
                 </ul>
             </div>
-            <div id="listy">
-                <p>test</p>
+            <!-- <div id="listy">
+                <p>List View</p>
                 
-            </div>
+            </div> -->
         </div>
     </div>
                 <!--list group stuff    <div class="list-group" id="listings">
@@ -89,7 +84,7 @@
                     </div>  -->
 
                 
-                                <div class="accordion" id="leftMenu">
+                      <!--          <div class="accordion" id="leftMenu">
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu" href="#collapseTwo">
@@ -118,9 +113,9 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     
-                </div>
+                </div> -->
                 
                 
                 
@@ -129,16 +124,14 @@
         </div>
 
         <div class="col-sm-9 col-lg-9" id="map">
-            <!--<div id="loading" style="display: block;">
-                <div class="loading-indicator">
-                    <div class="progress progress-striped active"> 
-                        <div class="progress-bar progress-bar-info" style="width: 100%"></div> 
-                    </div>
-                </div>
-            </div>-->
+            <a href='#' id='geolocate'><img src="img/geolocate-01.png" height="20px" /></a>
+            
+            
         </div>
-    </div><a class="toggle btn btn-default" data-placement="right" data-toggle=
-    "tooltip" href="#" rel="tooltip" title="Toggle sidebar" type="button"></a>
+    </div>
+    
+<a href="#" type="button" rel="tooltip" class="toggle btn btn-default" data-toggle="tooltip" data-placement="right" title="Toggle sidebar"><i class="icon-chevron-left"></i></a>
+
 
     <div class="modal fade" id="aboutModal">
         <div class="modal-dialog">
@@ -147,158 +140,53 @@
                     <button class="close" data-dismiss="modal" type=
                     "button">×</button>
 
-                    <h4 class="modal-title">Welcome to the BootLeaf Sidebar
-                    template!</h4>
+                    <h4 class="modal-title">About Oaxaqueando</h4>
                 </div>
 
-                <div class="modal-body">
-                    <ul class="nav nav-tabs" id="aboutTabs">
-                        <li class="active"><a data-toggle="tab" href=
-                        "#about">&nbsp;About the project</a></li>
+                <p id="aboutpage">
+                Hello. This site was made by <a href="http://about.me/kpennell" target="_blank">Kyle Pennell</a>. I've lived in Oaxaca since January 2014.  I made Oaxaqueando because I thought a map would make it easier to see and explore more cool things and places in Oaxaca.
+                <br>
+                <br>
 
-                        <li><a data-toggle="tab" href=
-                        "#disclaimer">&nbsp;Disclaimer</a></li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown"
-                            href="#">&nbsp;Metadata</a>
+                If you have any suggestions or comments on things that need to be added or changed on here, please email me:
+                <br>
+                
 
-                            <ul class="dropdown-menu">
-                                <li><a data-toggle="tab" href=
-                                "#boroughs-tab">Boroughs</a></li>
 
-                                <li><a data-toggle="tab" href=
-                                "#subway-lines-tab">Subway Lines</a></li>
+                <img src="img/email.png">
 
-                                <li><a data-toggle="tab" href=
-                                "#theaters-tab">Theaters</a></li>
+                <br>
+                <br>
 
-                                <li><a data-toggle="tab" href=
-                                "#museums-tab">Museums</a></li>
-                            </ul>
-                        </li>
-                    </ul>
 
-                    <div class="tab-content" id="aboutTabsContent" style=
-                    "padding-top: 10px;">
-                        <div class="tab-pane fade active in" id="about">
-                            <p>A simple template for building web mapping
-                            applications with <a href=
-                            "http://getbootstrap.com/">Bootstrap 3</a> and
-                            <a href="http://leafletjs.com/" target=
-                            "_blank">Leaflet</a>.</p>
+                I'd like to continue adding to this and improving the interface so that you and many other people can explore more of Oaxaca.
+                <br>
+                <br>
 
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    Features
-                                </div>
 
-                                <ul class="list-group">
-                                    <li class="list-group-item">Find cool stuff in Oaxaca</li>
-
-                                </ul>
+                
+                </p>
                             </div>
-                        </div>
+                        
 
-                        <div class="tab-pane fade text-danger" id="disclaimer">
-                            <p>Test test</p>
-
-                            <p>hug?</p>
-                        </div>
-
-                        <div class="tab-pane fade" id="boroughs-tab">
-                            <p>Borough data courtesy of <a href=
-                            "http://www.nyc.gov/html/dcp/html/bytes/meta_dis_nyboroughwi.shtml"
-                            target="_blank">New York City Department of City
-                            Planning</a></p>
-                        </div>
-
-                        <div class="tab-pane fade" id="subway-lines-tab">
-                            <p><a href=
-                            "http://spatialityblog.com/2010/07/08/mta-gis-data-update/#datalinks"
-                            target="_blank">MTA Subway data</a> courtesy of the
-                            <a href=
-                            "http://www.urbanresearch.org/about/cur-components/cuny-mapping-service"
-                            target="_blank">CUNY Mapping Service at the Center
-                            for Urban Research</a></p>
-                        </div>
-
-                        <div class="tab-pane fade" id="theaters-tab">
-                            <p>Theater data courtesy of <a href=
-                            "https://data.cityofnewyork.us/Recreation/Theaters/kdu2-865w"
-                            target="_blank">NYC Department of Information &amp;
-                            Telecommunications (DoITT)</a></p>
-                        </div>
-
-                        <div class="tab-pane fade" id="museums-tab">
-                            <p>Museum data courtesy of <a href=
-                            "https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb"
-                            target="_blank">NYC Department of Information &amp;
-                            Telecommunications (DoITT)</a></p>
+                        
                         </div>
                     </div>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /. About and Legend Page -->
-
+                
+            
     <div class="modal fade" id="contactModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button class="close" data-dismiss="modal" type=
-                    "button">×</button>
-
-                    <h4 class="modal-title">Contact Us!</h4>
+            
                 </div>
 
-                <div class="modal-body">
-                    <form id="contact-form" name="contact-form">
-                        <fieldset>
-                            <div class="form-group">
-                                <label for="name">Name:</label> <input class=
-                                "form-control" id="name" type="text">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Email:</label> <input class=
-                                "form-control" id="email" type="text">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="comment">Comment:</label> 
-                                <textarea class="form-control" id="comment"
-                                rows="3">
-</textarea>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-
-                <div class="modal-footer">
-                    <button class="btn btn-primary pull-right" data-dismiss=
-                    "modal" type="submit">Submit</button>
-                </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <div class="modal fade" id="legendModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close" data-dismiss="modal" type=
-                    "button">×</button>
-
-                    <h4 class="modal-title">Map Legend</h4>
-                </div>
-
-                <div class="modal-body">
-                    <p>Map Legend goes here...</p>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+    
 
     <script src="http://code.jquery.com/jquery-1.10.2.min.js" type=
     "text/javascript"></script><script src=
