@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4930191,
+          17.3317394
+        ]
+      },
+      "properties": {
+        "Name": "Ixtlán de Juárez",
+        "Open": "Monday",
+        "url": "http://en.wikipedia.org/wiki/Ixtl%C3%A1n_de_Ju%C3%A1rez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7701721,
+          17.0921402
+        ]
+      },
+      "properties": {
+        "Name": "Atzompa",
+        "Open": "Tuesday",
+        "url": "http://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_Atzompa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4738998,
+          16.9640999
+        ]
+      },
+      "properties": {
+        "Name": "Tlacolula",
+        "Open": "Sunday",
+        "url": "http://en.wikipedia.org/wiki/Tlacolula_de_Matamoros"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7502747,
+          16.9553776
+        ]
+      },
+      "properties": {
+        "Name": "Zaachila",
+        "Open": "Thursday",
+        "url": "http://en.wikipedia.org/wiki/Zaachila"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7242838,17.0735553 
+        ]
+      },
+      "properties": {
+        "Name": "El Pochote/Xochimilco",
+        "Open": "Friday/Saturday",
+        "url": "http://organicoselpochote.wordpress.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0735382,-96.7246915]
+      },
+      "properties": {
+        "Name": "Xicoténcatl/Raychote",
+        "Open": "Monday-Saturday",
+        "url": "http://organicoselpochote.wordpress.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6801682,
+          16.7841606
+        ]
+      },
+      "properties": {
+        "Name": "Ocotlán",
+        "Open": "Friday",
+        "url": "http://www.oaxacatimes.com/2-uncategorised/103-ocotlan2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7334556,
+          17.057987
+        ]
+      },
+      "properties": {
+        "Name": "Abasto(s)",
+        "Open": "Everyday",
+        "url": "http://www.planeta.com/ecotravel/mexico/oaxaca/mercadoabastos.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7287499,
+          17.0571909
+        ]
+      },
+      "properties": {
+        "Name": "Artesania",
+        "Open": "Everyday",
+        "url": "http://www.planeta.com/ecotravel/mexico/oaxaca/mercadoart.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -96.7268,17.0578
+        ]
+      },
+      "properties": {
+        "Name": "20 de Noviembre",
+        "Open": "Everyday",
+        "url": "http://www.planeta.com/ecotravel/mexico/oaxaca/mercadojuarez20.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7270261,
+          17.0587652
+        ]
+      },
+      "properties": {
+        "Name": "Benito Juárez",
+        "Open": "Everyday",
+        "url": "http://www.planeta.com/ecotravel/mexico/oaxaca/mercadojuarez20.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.725381,
+          17.068795
+        ]
+      },
+      "properties": {
+        "Name": "Sánchez Pascuas",
+        "Open": "Everyday",
+        "url": "http://www.planeta.com/ecotravel/mexico/oaxaca/mercadosp.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7166878,
+          17.0626081
+        ]
+      },
+      "properties": {
+        "Name": "Mercado La Merced",
+        "Open": "Everyday",
+        "url": "https://foursquare.com/v/mercado-la-merced/4c279de4db51952103a12c3a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8481064,
+          16.6880493
+        ]
+      },
+      "properties": {
+        "Name": "Ayoquezco de Aldama",
+        "Open": "Tuesday",
+        "url": "http://en.wikipedia.org/wiki/Ayoquezco_de_Aldama"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7271576,
+          16.5594063
+        ]
+      },
+      "properties": {
+        "Name": "Ejutla de Crespo",
+        "Open": "Thursday",
+        "url": "http://en.wikipedia.org/wiki/Ejutla_de_Crespo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5929108,
+          16.3275795
+        ]
+      },
+      "properties": {
+        "Name": "Miahuatlan",
+        "Open": "Monday",
+        "url": "http://en.wikipedia.org/wiki/Miahuatl%C3%A1n_de_Porfirio_D%C3%ADaz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7073898,
+          16.95784
+        ]
+      },
+      "properties": {
+        "Name": "San Bartolo Coyotepec",
+        "Open": "Friday",
+        "url": "http://en.wikipedia.org/wiki/San_Bartolo_Coyotepec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7611008,
+          17.1459007
+        ]
+      },
+      "properties": {
+        "Name": "San Pablo Etla",
+        "Open": "Wednesday",
+        "url": "http://en.wikipedia.org/wiki/San_Pablo_Etla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5881864,
+          16.2708931
+        ]
+      },
+      "properties": {
+        "Name": "Tamazulapan",
+        "Open": "Wednesday",
+        "url": "http://www.planeta.com/ecotravel/mexico/oaxaca/tamazulapan.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7849426,
+          16.8648205
+        ]
+      },
+      "properties": {
+        "Name": "Zimatlán",
+        "Open": "Wednesday",
+        "url": "http://www.academictoursoaxaca.com/oaxaca/tianguis_wednesday.php"
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "In Situ Mezcalería",
+        "Address": "",
+        "Website": "https://twitter.com/insitumezcal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7263144,
+          17.0631132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Los Ancestros\"",
+        "Address": ". Ma. Pino Suárez 604, Centro Histórico, Oaxaca, México.",
+        "Website": "https://www.facebook.com/losamantesmezcaleria?fref=ts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7530518,
+          17.1184711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cuish Mezcales de Agaves Silvestres",
+        "Address": "Diaz Ordaz No.712,Colonia Centro, Oaxaca, México.",
+        "Website": "https://www.facebook.com/mezcalcuish.mx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7297821,
+          17.0562401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Remedios Mezcaleria Y pulquesfinos",
+        "Address": "",
+        "Website": "https://www.facebook.com/mezcaleria.ypulquesfinos/about"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7294906,
+          17.0625139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Atemporal",
+        "Address": "",
+        "Website": "https://www.facebook.com/restauranteatemporal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7197382,
+          17.0760607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Del Maguey\"",
+        "Address": "Macedonio Alcalá No. 403 L-7, Colonia Centro, Oaxaca, México.",
+        "Website": "www.mezcal.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7239532,
+          17.0650501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Embajador de Oaxaca\"",
+        "Address": "Diagonal del Panteón s/n, esq. Independencia 523Col. Reforma, Oaxaca, México.",
+        "Website": "www.mezcalembajador.com.mx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7508163,
+          17.1016293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Koch\"",
+        "Address": "Clzd. Héroes de Chapultepec No. 304, Col. CentroOaxaca, México. ",
+        "Website": "www.mezcalkoch.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7232971,
+          17.0722103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cremas de Mezcal \"Fruti Cream\"",
+        "Address": "Calle 20 de Noviembre # 408-B, Colonia Centro, Oaxaca, México.",
+        "Website": "www.mezcalorodeoaxaca.com.mx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7272263,
+          17.0589504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Oro de Oaxaca\"",
+        "Address": "Calle 20 de Noviembre # 408-B, Colonia Centro, Oaxaca, México.",
+        "Website": "www.mezcalorodeoaxaca.com.mx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7272263,
+          17.0589504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Casco Legendario\"",
+        "Address": " Pino Suárez 604, Centro Histórico, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7530518,
+          17.1184711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Memorable\"",
+        "Address": "16 de Septiembre No. 330, Colonia Barrio Bajo,Miahuatlán de Porfirio Díaz, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5992508,
+          16.3351498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"El Cortijo\"",
+        "Address": "5 de Mayo 305-A, entre Murguía y Abasolo Colonia Centro, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.71688,
+          17.0682587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"8 Viboras\"",
+        "Address": "Av. Polanco No. 83, Col. Bosque de ChapultepecDel. Miguel Hidalgo, Distrito Federal, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1901093,
+          19.4306431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Fandango\"",
+        "Address": "Blvrd Atlixcayotl No. 5208-6Puebla México",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4351196,
+          18.9191494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Agave de Cortes\"",
+        "Address": "Camino a la Presa s/n,Santiago Matatlán, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3682785,
+          16.8696861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Zignum",
+        "Address": "Carretera Internacional Cristóbal Colón Km. 28.5 Paraje Lannaci Tlacolula de Matamoros Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4731522,
+          16.9579697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"Benevá\"",
+        "Address": "Colón No. 518-A, Colonia Centro, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7358856,
+          17.1018867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cremas de Mezcal \"El Mayordomo\"",
+        "Address": "Constitucion No. 404-A, entre Libres y Pino Suárez, Colonia Centro, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7191315,
+          17.0649605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mezcal \"La Niña del Mezcal\"",
+        "Address": "Las Delicias #2, Col. CentroSantiago Matatlán, Oaxaca, México.",
+        "Website": "http://www.mezcalesdeoaxaca.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3853378,
+          16.8687
+        ]
+      }
+    }
+  ]
+}
