@@ -18,10 +18,9 @@ $('a.toggle').click(function () {
     return false;
 });
 
-var tiles = L.tileLayer("http://b.tile.cloudmade.com/427d7a7244db4c62b51b1ee252996cc0/124173/256/{z}/{x}/{y}.png", {
-    maxZoom: 17,
-    subdomains: ["otile1", "otile2", "otile3", "otile4"],
-    attribution: 'Tiles by CloudMade.'
+var tiles = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png", {
+    maxZoom: 16,
+    subdomains: ["otile1", "otile2", "otile3", "otile4"]
 });
 
 
